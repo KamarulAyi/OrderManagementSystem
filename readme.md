@@ -13,6 +13,7 @@ How to use :
 2. Go to the folder using Command Line (use cd)
 3. Run composer install
 4. Run php artisan key:generate
-5. Run php artisan migrate:refresh
-6. Run php artisan serve
-7. Go to localhost:8000 on your browser
+5. In PHPMyAdmin, create a new database named "orders"
+6. Run php artisan migrate:refresh
+7. Run php artisan serve
+8. Go to localhost:8000 on your browser
